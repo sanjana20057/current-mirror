@@ -1,5 +1,8 @@
 # current-mirror
 
+analysis on current mirror circuit.
+
+
 A current mirror is an electronic circuit that takes a reference current and reproduces it at its output, creating a stable and reliable current source. It usually involves two or more transistors that are closely matched—one sets the reference current, and the others replicate it. These circuits are essential in analog design, especially for tasks like biasing, signal processing, and amplification. They are valued for their accuracy and ability to maintain consistent performance. Variants like the Wilson and cascode current mirrors improve functionality by reducing errors and increasing output resistance. These circuits are common in integrated circuits and play a key role in devices like amplifiers, voltage regulators, and differential pairs.
 To put it simply, a current mirror "copies" a current from one part of the circuit to another, even if the output faces changing conditions. The current being duplicated can even be a varying signal. An ideal current mirror acts like a perfect current amplifier, reversing the direction of the current flow. Practically, they are used to provide steady bias currents, simulate realistic current sources, and serve as active loads in circuits, which helps address the limitation of ideal sources.
 
